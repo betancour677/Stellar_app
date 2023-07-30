@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:scaleType="centerCrop"
+    android:src="@drawable/image_placeholder" />
+
+<TextView
+    android:id="@+id/descriptionTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:layout_gravity="center"
+    android:paddingTop="16dp" />
+
+<Button
+    android:id="@+id/backButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Volver" />
+
+<Button
+    android:id="@+id/closeAppButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Cerrar Aplicación" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+

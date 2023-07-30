@@ -1,0 +1,8 @@
+<resources>
+        <string name="app_name">estelar</string>
+        <string  name="description_image1">Agujero negro</string>
+        <string name="description_image2">Aurora Polar</string>
+        <string name="description_image3">Nebulosa</string>
+        <string name="description_image4">Lluvia de meteoritos</string>
+
+</resources>
